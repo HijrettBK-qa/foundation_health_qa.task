@@ -1,8 +1,8 @@
 import { test as base } from '@playwright/test';
-import LoginPage from '../Pages/LoginPage';
-import ProductsPage from '../Pages/ProductsPage';
-import CheckOutPage from '../Pages/CheckoutPage';
-import CartPage from '../Pages/CartPage';
+import LoginPage from '../pages/LoginPage';
+import ProductsPage from '../pages/ProductsPage';
+import CheckOutPage from '../pages/CheckOutPage';
+import CartPage from '../pages/CartPage';
 
 type myFixtures = {
 
