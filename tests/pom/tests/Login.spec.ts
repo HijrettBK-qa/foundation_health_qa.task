@@ -1,4 +1,4 @@
-import { test, expect } from "../fixtures/Fixtures";
+import { test, expect } from "../Fixtures/Fixtures";
 
 
 test("TC-1: The user should login successfully", async ({ page, login }) => {
