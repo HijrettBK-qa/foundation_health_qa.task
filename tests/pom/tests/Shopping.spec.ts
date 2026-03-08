@@ -1,4 +1,4 @@
-import { test } from "../Fixtures/Fixtures.ts";
+import { test } from "../fixture/fixtures.ts";
 
 const item1 = "Sauce Labs Bike Light";
 const item2 = "Sauce Labs Backpack";

@@ -1,4 +1,4 @@
-import { test } from "../Fixtures/Fixtures.ts";
+import { test } from "../fixture/fixtures.ts";
 
 
 test("TC-1: The user should login successfully", async ({ login }) => {
