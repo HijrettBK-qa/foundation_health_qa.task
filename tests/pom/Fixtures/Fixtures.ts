@@ -19,13 +19,13 @@ export const test = base.extend<myFixtures>({  // extend the base test as "MyFix
   login: async ({ page }, use) => {
     await use(new LoginPage(page));
   },
-  products:async({page},use) =>{
+  products: async ({ page }, use) => {
     await use(new ProductsPage(page));
   },
-  checkout:async({page}, use)=>{
+  checkout: async ({ page }, use) => {
     await use(new CheckOutPage(page));
   },
-  cart:async({page},use)=>{
+  cart: async ({ page }, use) => {
     await use(new CartPage(page));
   }
 

@@ -1,14 +1,14 @@
-import { test, expect } from "../Fixtures/Fixtures";
+import { test } from "../Fixtures/Fixtures.ts";
 
 
-test("TC-1: The user should login successfully", async ({ page, login }) => {
+test("TC-1: The user should login successfully", async ({ login }) => {
 
     await login.login('standard_user', 'secret_sauce');
     await login.verifyLogin();
 
 });
 
-test("TC-2: The user should logout successfully", async ({ page, login }) => {
+test("TC-2: The user should logout successfully", async ({ login }) => {
 
     await login.login('standard_user', 'secret_sauce');
     await login.logout();
